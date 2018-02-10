@@ -6,5 +6,5 @@ source src/tmp/install/functions.sh
 
 patch_dockerfile Dockerfile
 docker build -t registry.ott-consult.de/oc/phpmyadmin:latest .
-#docker push registry.ott-consult.de/oc/phpmyadmin:latest
+docker push registry.ott-consult.de/oc/phpmyadmin:latest
 
